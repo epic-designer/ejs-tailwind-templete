@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stunning Wallpapers website">
+    <meta name="keywords" content="node, cheerio, wallpaper-store, allure-of-wallpapers">
+    <meta name="author" content="Mohsin Khan">
+
+    <title>Allure Of Wallpapers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+
+
+
+<div class="w-full min-h-screen flex">
+  
+  
+
+  <div class="flex-1 flex flex-col">
+    <section class="relative w-full h-[100vh] flex items-center justify-center bg-gradient-to-r from-[#1e3a8a] to-[#0284c7]">
+      <div class="relative z-10 text-center text-white space-y-4">
+        <h1 class="text-5xl md:text-6xl font-bold">John Doe</h1>
+        <span id="#element" class="text-xl md:text-2xl"></span>
+        <p class="max-w-[600px] text-lg md:text-xl">
+          Experienced full-stack developer with a passion for creating innovative web applications. Let's bring your
+          ideas to life.
+        </p>
+        <a
+          class="inline-flex items-center justify-center rounded-md bg-white text-[#1e3a8a] px-6 py-3 text-lg font-medium shadow-md hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+          href="#"
+        >
+          Get in Touch
+        </a>
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-r from-[#1e3a8a]/80 to-[#0284c7]/80 animate-fade-right animate-duration-[600ms] animate-delay-200"></div>
+      <img
+        src="https://unsplash.com/photos/man-standing-on-bolder-overlooking-the-hills-and-mountains-827XUhVSp8M"
+        alt="Hero Image"
+        class="absolute inset-0 w-full h-full object-cover"
+        width="1920"
+        height="1080"
+        style="aspect-ratio: 1920 / 1080; object-fit: cover;"
+      />
+    </section>
+
+
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-white">
+      <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="flex items-center justify-center delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="400">
+          <img
+            src="https://images.unsplash.com/photo-1504593811423-6dd665756598?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Profile Photo"
+            class="rounded-full w-[300px] h-[300px] object-cover"
+            width="300"
+            height="300"
+            style="aspect-ratio: 300 / 300; object-fit: cover;"
+          />
+        </div>
+        <div class="space-y-4 delay-[300ms] duration-[600ms] taos:translate-x-[200px] taos:opacity-0" data-taos-offset="400
+        ">
+          <h2 class="text-3xl md:text-4xl font-bold">About Me</h2>
+          <p class="text-lg md:text-xl">
+            I am a passionate full-stack developer with over 5 years of experience in building modern, responsive,
+            and scalable web applications. I specialize in technologies like React, Node.js, MongoDB, and
+            PostgreSQL, and I'm always eager to learn new skills to stay ahead of the curve.
+          </p>
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <h3 class="text-lg font-bold">Education</h3>
+              <p>Bachelor of Computer Science</p>
+              <p>University of Example, 2015</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold">Work History</h3>
+              <p>Full-Stack Developer</p>
+              <p>Acme Inc, 2017 - Present</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-gray-100">
+      <div class="max-w-5xl mx-auto">
+        <div class="flex items-center justify-between mb-8">
+          <h2 class="text-3xl md:text-4xl font-bold">Recent Projects</h2>
+          <a
+            class="inline-flex items-center justify-center rounded-md bg-[#1e3a8a] text-white px-4 py-2 text-lg font-medium shadow-md hover:bg-[#0284c7] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1e3a8a] focus-visible:ring-opacity-75"
+            href="#"
+          >
+            All Projects
+          </a>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="group relative overflow-hidden rounded-lg shadow-md delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
+            <img
+              src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Project 1"
+              class="w-full h-[200px] object-cover transition-all duration-300 group-hover:scale-105"
+              width="400"
+              height="300"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="absolute inset-0 bg-[#1e3a8a]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <div class="text-white text-center space-y-2">
+                <h3 class="text-2xl font-bold">Project 1</h3>
+                <p>A modern e-commerce website built with React and Node.js.</p>
+                <a
+                  class="inline-flex items-center justify-center rounded-md bg-white text-[#1e3a8a] px-4 py-2 text-lg font-medium shadow-md hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                  href="#"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="group relative overflow-hidden rounded-lg shadow-md delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
+            <img
+              src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Project 2"
+              class="w-full h-[200px] object-cover transition-all duration-300 group-hover:scale-105"
+              width="400"
+              height="300"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="absolute inset-0 bg-[#1e3a8a]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <div class="text-white text-center space-y-2">
+                <h3 class="text-2xl font-bold">Project 2</h3>
+                <p>A responsive blog website built with Next.js and Prisma.</p>
+                <a
+                  class="inline-flex items-center justify-center rounded-md bg-white text-[#1e3a8a] px-4 py-2 text-lg font-medium shadow-md hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                  href="#"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="group relative overflow-hidden rounded-lg shadow-md delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
+            <img
+              src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Project 3"
+              class="w-full h-[200px] object-cover transition-all duration-300 group-hover:scale-105"
+              width="400"
+              height="300"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="absolute inset-0 bg-[#1e3a8a]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <div class="text-white text-center space-y-2">
+                <h3 class="text-2xl font-bold">Project 3</h3>
+                <p>A data visualization dashboard built with React and D3.js.</p>
+                <a
+                  class="inline-flex items-center justify-center rounded-md bg-white text-[#1e3a8a] px-4 py-2 text-lg font-medium shadow-md hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+                  href="#"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-20 px-4 md:px-8 lg:px-12 bg-white">
+      <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-4">
+          <h2 class="text-3xl md:text-4xl font-bold">Get in Touch</h2>
+          <p class="text-lg md:text-xl">
+            I'm always excited to discuss new projects and opportunities. Feel free to reach out using the form
+            below or connect with me on social media.
+          </p>
+          <div class="flex items-center space-x-4">
+            <a class="text-[#1e3a8a] hover:text-[#0284c7]" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-6 h-6"
+              >
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+              </svg>
+            </a>
+            <a class="text-[#1e3a8a] hover:text-[#0284c7]" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-6 h-6"
+              >
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect width="4" height="12" x="2" y="9"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a class="text-[#1e3a8a] hover:text-[#0284c7]" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-6 h-6"
+              >
+                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <form class="space-y-4">
+            <div class="space-y-1">
+              <label
+                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                for="name"
+              >
+                Name
+              </label>
+              <input
+                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                id="name"
+                placeholder="John Doe"
+                required=""
+                type="text"
+              />
+            </div>
+            <div class="space-y-1">
+              <label
+                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                id="email"
+                placeholder="john@example.com"
+                required=""
+                type="email"
+              />
+            </div>
+            <div class="space-y-1">
+              <label
+                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                for="message"
+              >
+                Message
+              </label>
+              <textarea
+                class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                id="message"
+                rows="5"
+                placeholder="How can I help you today?"
+                required=""
+              ></textarea>
+            </div>
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+              type="submit"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+  </div>
+</div>
+<script>
+  var typed = new Typed('#element', {
+    strings: ['<i> Full-Stack</i> Developer.', '&amp; Designer.'],
+    typeSpeed: 50,
+  });
+</script>
+</body>
+</html>
