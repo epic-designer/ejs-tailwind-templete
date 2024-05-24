@@ -4,14 +4,17 @@
   "description": "This is my  personal portfolio website.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.10",
     "ejs-mate": "^4.0.0",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "taos": "^1.0.5",
+    "typed.js": "^2.1.0"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
