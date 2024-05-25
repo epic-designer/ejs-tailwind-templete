@@ -2,11 +2,15 @@
 module.exports = {
   // content: ["./views/**/*.{html,js}"],
   // content: ["./views/**/*.ejs"],
+
+
+  darkMode: 'class',
   theme: {
     extend: {},
   },
   plugins: [
-    require('taos/plugin')
+    require('taos/plugin'),
+    require('flowbite/plugin')
   ],
   safelist: [
     '!duration-[0ms]',

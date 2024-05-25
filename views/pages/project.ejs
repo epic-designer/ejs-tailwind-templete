@@ -1,40 +1,40 @@
 <% layout("/layouts/boilerplate") %>
-<section class="py-20 px-4 md:px-8 lg:px-12  ">
-    <div class="max-w-5xl mx-auto">
-      <div class="flex items-center justify-between mb-8">
-        <h2 class="text-3xl md:text-4xl font-bold">Recent Projects</h2>
-        <a
-          class="inline-flex items-center justify-center rounded-md bg-[#1e3a8a] text-white px-4 py-2 text-lg font-medium shadow-md hover:bg-[#0284c7] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1e3a8a] focus-visible:ring-opacity-75"
-          href="#"
-        >
-          All Projects
-        </a>
-      </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <% for (const project of projects) { %>
-          <div class="group relative overflow-hidden rounded-lg shadow-md duration-[300ms]">
-            <img
-              src="<%= project.image %>"
-              alt="<%= project.title %>"
-              class="w-full h-[200px] object-cover transition-all duration-300 group-hover:scale-105"
-              width="400"
-              height="300"
-              style="aspect-ratio: 400 / 300; object-fit: cover;"
-            />
-            <div class="absolute inset-0 bg-[#1e3a8a]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-              <div class="text-white text-center space-y-2">
-                <h3 class="text-2xl font-bold"><%= project.title %></h3>
-                <p><%= project.description %></p>
-                <a
-                  class="inline-flex items-center justify-center rounded-md bg-white text-[#1e3a8a] px-4 py-2 text-lg font-medium shadow-md hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
-                  href="<%= project.link %>"
-                >
-                  View Project
-                </a>
-              </div>
-            </div>
-          </div>
-        <% } %>
-      </div>
+<section class="py-20 px-4 md:px-8 lg:px-12">
+  <div class="max-w-5xl mx-auto">
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="text-3xl md:text-4xl font-bold text-[#1e3a8a] dark:text-white">Recent Projects</h2>
+      <a
+        class="inline-flex items-center justify-center rounded-md bg-[#1e3a8a] text-white px-4 py-2 text-lg font-medium shadow-md hover:bg-[#0284c7] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1e3a8a] focus-visible:ring-opacity-75  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+        href="/project"
+      >
+        All Projects
+      </a>
     </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <% for (const project of projects) { %>
+      <div class="group relative overflow-hidden rounded-lg shadow-md duration-[300ms]">
+        <img
+          src="<%= project.image %>"
+          alt="<%= project.title %>"
+          class="w-full h-[200px] object-cover transition-all duration-300 group-hover:scale-105"
+          width="400"
+          height="300"
+          style="aspect-ratio: 400 / 300; object-fit: cover;"
+        />
+        <div class="absolute inset-0 bg-[#1e3a8a]/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+          <div class="text-white text-center space-y-2">
+            <h3 class="text-2xl font-bold"><%= project.title %></h3>
+            <p><%= project.description %></p>
+            <a
+              class="inline-flex items-center justify-center rounded-md bg-white text-[#1e3a8a] px-4 py-2 text-lg font-medium shadow-md hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+              href="<%= project.link %>" target="_blank"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </div>
 </section>

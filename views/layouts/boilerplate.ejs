@@ -5,35 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mohsin Khan</title>
   <link rel="stylesheet" href="/css/output.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script>document.documentElement.classList.add('js')</script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
 </head>
-<body class="bg-gray-100">
+<body class="">
   <div class="w-full min-h-screen flex">
 
     <div class="flex-1 flex flex-col">
 
       <%- include("../includes/navbar.ejs") %>
+      
 
       <div class="md:h-full lg:h-full">  <%- body %>
+        
+  
       </div>
+      <%- include("../includes/dark_mode.ejs") %>
+
 
       <%- include("../includes/footer.ejs") %>
 
     </div>
 
   </div>
+  
   <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
-  <script>
-    var typed = new Typed('#typing_animation', {
-      strings: ['Full-Stack Dev', 'MERN Stack','Python'],
-      typeSpeed: 100,
-      loop: true,
-      loopCount: Infinity,
-      showCursor: false,
-    });
-  </script>
+  <script src="/js/typed.js"></script>
+  <script src="/js/scroll_to_top.js"></script>
+  <script src="/js/flowbite_bundle.js"></script>
+  
 </body>
 </html>

@@ -2,13 +2,13 @@
 <section class="py-20 px-4 md:px-8 lg:px-12 bg-gray-500 flex items-center justify-center">
     <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
       <div class="space-y-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-[#1e3a8a]">Get in Touch</h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-[#1e3a8a] dark:text-white">Get in Touch</h2>
         <p class="text-lg md:text-xl">
           I'm always excited to discuss new projects and opportunities. Feel free to reach out using the form
           below or connect with me on social
         </p>
         <div class="flex items-center space-x-4">
-          <a class="text-[#1e3a8a] hover:text-[#0284c7]" href="<%= data.git %>">
+          <a class="text-[#1e3a8a] dark:text-white dark:hover:text-[#0284c7] hover:text-[#0284c7]" href="<%= data.git %>">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -25,7 +25,7 @@
               <path d="M9 18c-4.51 2-5-2-7-2"></path>
             </svg>
           </a>
-          <a class="text-[#1e3a8a] hover:text-[#0284c7]" href="<%= data.linkedin %>">
+          <a class="text-[#1e3a8a] dark:text-white dark:hover:text-[#0284c7] hover:text-[#0284c7]" href="<%= data.linkedin %>">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -43,7 +43,7 @@
               <circle cx="4" cy="4" r="2"></circle>
             </svg>
           </a>
-          <a class="text-[#1e3a8a] hover:text-[#0284c7]" href="<%= data.insta %>">
+          <a class="text-[#1e3a8a] dark:text-white dark:hover:text-[#0284c7] hover:text-[#0284c7]" href="<%= data.insta %>">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
               <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
@@ -100,7 +100,7 @@
             ></textarea>
           </div>
           <button
-            class="inline-flex items-center justify-center rounded-md bg-gray-50 text-[#1e3a8a] w-full px-6 py-3 text-lg font-medium shadow-md hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+            class="inline-flex items-center justify-center rounded-md bg-gray-50 text-[#1e3a8a] w-full px-6 py-3 text-lg font-medium shadow-md hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
             type="submit"
           >
             Send Message
